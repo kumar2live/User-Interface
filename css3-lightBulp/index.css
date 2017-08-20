@@ -26,6 +26,9 @@ body {
     display: inline-block;
     background: ghostwhite;
     box-shadow: 1px 3px 20px 12px white;
+    transform: scale(1.2);
+    transition-duration: 2s;
+    transform-style: preserve-3d;
 }
 
 .bulpOff {
@@ -35,8 +38,19 @@ body {
     width: 100px;
     border-radius: 50%;
     display: inline-block;
+    transform: scale(1);
+    transition-duration: 2s;
+    transform-style: preserve-3d;
 }
 
-.tClass {
-	background-color: black;
+.tClassA {
+	background-color: #868080 !important;
+    transition-duration: 2s;
+    transform-style: preserve-3d;
+}
+
+.tClassB {
+	background-color: black !important;
+    transition-duration: 2s;
+    transform-style: preserve-3d;
 }

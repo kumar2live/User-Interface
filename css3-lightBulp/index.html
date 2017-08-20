@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-	<div class="bParent">
+	<div class="bParent" style="background-color: black">
 		<div class="loop">
 			
 		</div>
@@ -27,13 +27,13 @@ $(document).ready(function() {
 	$('#bBulp').on('click', function() {
 		if(!q) {
 			$('#bBulp').removeClass('bulpOff').addClass('bulp'); 
-			$('.bParent').css('background-color', '#868080');
+			$('.bParent').removeClass('tClassB').addClass('tClassA');
 			q = true;
 		}
 		else {
 			q = false;
 			$('#bBulp').removeClass('bulp').addClass('bulpOff');
-			$('.bParent').css('background-color', 'black');
+			$('.bParent').removeClass('tClassA').addClass('tClassB');
 		}
 	});
 });	
