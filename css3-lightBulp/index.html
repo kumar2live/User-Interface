@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Light</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="bParent">
+		<div class="loop">
+			
+		</div>
+		<div class="">
+			
+		</div>
+		<div class="">
+			
+		</div>
+		<div id="bBulp" class="bulpOff">
+			
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	var q = false;
+	$('#bBulp').on('click', function() {
+		if(!q) {
+			$('#bBulp').removeClass('bulpOff').addClass('bulp'); 
+			$('.bParent').css('background-color', '#868080');
+			q = true;
+		}
+		else {
+			q = false;
+			$('#bBulp').removeClass('bulp').addClass('bulpOff');
+			$('.bParent').css('background-color', 'black');
+		}
+	});
+});	
+</script>
+</html>

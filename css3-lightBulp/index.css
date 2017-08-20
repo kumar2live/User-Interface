@@ -1,0 +1,42 @@
+body { 
+}
+
+.bParent { 
+    position: absolute; 
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    height: 100%;
+}
+
+.loop {
+	border: 1px solid;
+    height: 200px;
+    width: 0px;
+    display: inline-block;
+}
+
+.bulp {
+	cursor: pointer;
+    border: 1px solid #f9f8f0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    background: ghostwhite;
+    box-shadow: 1px 3px 20px 12px white;
+}
+
+.bulpOff {
+	cursor: pointer;
+    border: 1px solid #f9f8f0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.tClass {
+	background-color: black;
+}
