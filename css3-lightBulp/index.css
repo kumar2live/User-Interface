@@ -36,7 +36,7 @@ body {
     border: 1px solid #f9f8f0;
     height: 100px;
     width: 100px;
-    border-radius: 50%;
+    border-radius: 40%;
     display: inline-block;
     transform: scale(1);
     transition-duration: 2s;
